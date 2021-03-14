@@ -280,6 +280,7 @@ extension ViewController : UISearchBarDelegate {
         removeAlls()
         getStationDetail()
         tableView.reloadData()
+        viewHide.isHidden = true
     }else {
         self.loadSearchFriendList(withKeyword: finalSearchString.uppercased())
     }
