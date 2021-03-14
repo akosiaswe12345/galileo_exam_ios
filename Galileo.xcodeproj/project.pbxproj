@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47BDA3F8A03C9CF421920130 /* Pods_Galileo_GalileoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335B9AA0A432B99C103C4FDE /* Pods_Galileo_GalileoUITests.framework */; };
+		BB13F80D25FE7D100070BDBE /* CountryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13F80C25FE7D100070BDBE /* CountryDetailsViewController.swift */; };
+		BB4B193F25F9441200EDB225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B193E25F9441200EDB225 /* AppDelegate.swift */; };
+		BB4B194325F9441200EDB225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B194225F9441200EDB225 /* ViewController.swift */; };
+		BB4B194625F9441200EDB225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4B194425F9441200EDB225 /* Main.storyboard */; };
+		BB4B194925F9441200EDB225 /* Galileo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB4B194725F9441200EDB225 /* Galileo.xcdatamodeld */; };
+		BB4B194B25F9444A00EDB225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4B194A25F9444A00EDB225 /* Assets.xcassets */; };
+		BB4B194E25F9444A00EDB225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4B194C25F9444A00EDB225 /* LaunchScreen.storyboard */; };
+		BB4B195925F9444E00EDB225 /* GalileoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B195825F9444E00EDB225 /* GalileoTests.swift */; };
+		BB4B196425F9444E00EDB225 /* GalileoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B196325F9444E00EDB225 /* GalileoUITests.swift */; };
+		BBFD9169608F582CE05CB9D4 /* Pods_Galileo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B75F90B2141053FD9EDC36 /* Pods_Galileo.framework */; };
+		BCF42774D41D7A725FD28BB4 /* Pods_GalileoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3969DE2A32FFEDD294BEF6B /* Pods_GalileoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB4B195525F9444E00EDB225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4B193325F9441200EDB225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB4B193A25F9441200EDB225;
+			remoteInfo = Galileo;
+		};
+		BB4B196025F9444E00EDB225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB4B193325F9441200EDB225 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB4B193A25F9441200EDB225;
+			remoteInfo = Galileo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283A631179A8B555AB835F9D /* Pods-Galileo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galileo.release.xcconfig"; path = "Target Support Files/Pods-Galileo/Pods-Galileo.release.xcconfig"; sourceTree = "<group>"; };
+		335B9AA0A432B99C103C4FDE /* Pods_Galileo_GalileoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galileo_GalileoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B204CC22F0CBEBC03B3557 /* Pods-Galileo-GalileoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galileo-GalileoUITests.release.xcconfig"; path = "Target Support Files/Pods-Galileo-GalileoUITests/Pods-Galileo-GalileoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52B75F90B2141053FD9EDC36 /* Pods_Galileo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Galileo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79430B11DFE3DFF1CBB78BB2 /* Pods-Galileo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galileo.debug.xcconfig"; path = "Target Support Files/Pods-Galileo/Pods-Galileo.debug.xcconfig"; sourceTree = "<group>"; };
+		9638201FB3DA163E101BFE60 /* Pods-GalileoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalileoTests.debug.xcconfig"; path = "Target Support Files/Pods-GalileoTests/Pods-GalileoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BFDE152F523D588D49978E2 /* Pods-Galileo-GalileoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Galileo-GalileoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Galileo-GalileoUITests/Pods-Galileo-GalileoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B44EF670D629D1B22C899953 /* Pods-GalileoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GalileoTests.release.xcconfig"; path = "Target Support Files/Pods-GalileoTests/Pods-GalileoTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB13F80C25FE7D100070BDBE /* CountryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewController.swift; sourceTree = "<group>"; };
+		BB4B193B25F9441200EDB225 /* Galileo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Galileo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4B193E25F9441200EDB225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB4B194225F9441200EDB225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB4B194525F9441200EDB225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB4B194825F9441200EDB225 /* Galileo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Galileo.xcdatamodel; sourceTree = "<group>"; };
+		BB4B194A25F9444A00EDB225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB4B194D25F9444A00EDB225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB4B194F25F9444A00EDB225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4B195425F9444E00EDB225 /* GalileoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalileoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4B195825F9444E00EDB225 /* GalileoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalileoTests.swift; sourceTree = "<group>"; };
+		BB4B195A25F9444E00EDB225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4B195F25F9444E00EDB225 /* GalileoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalileoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4B196325F9444E00EDB225 /* GalileoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalileoUITests.swift; sourceTree = "<group>"; };
+		BB4B196525F9444E00EDB225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3969DE2A32FFEDD294BEF6B /* Pods_GalileoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalileoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB4B193825F9441200EDB225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFD9169608F582CE05CB9D4 /* Pods_Galileo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B195125F9444E00EDB225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF42774D41D7A725FD28BB4 /* Pods_GalileoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B195C25F9444E00EDB225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BDA3F8A03C9CF421920130 /* Pods_Galileo_GalileoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75DEE00F7540307ADEEF1AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B75F90B2141053FD9EDC36 /* Pods_Galileo.framework */,
+				335B9AA0A432B99C103C4FDE /* Pods_Galileo_GalileoUITests.framework */,
+				D3969DE2A32FFEDD294BEF6B /* Pods_GalileoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55064A4087D3737F93C067F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79430B11DFE3DFF1CBB78BB2 /* Pods-Galileo.debug.xcconfig */,
+				283A631179A8B555AB835F9D /* Pods-Galileo.release.xcconfig */,
+				9BFDE152F523D588D49978E2 /* Pods-Galileo-GalileoUITests.debug.xcconfig */,
+				52B204CC22F0CBEBC03B3557 /* Pods-Galileo-GalileoUITests.release.xcconfig */,
+				9638201FB3DA163E101BFE60 /* Pods-GalileoTests.debug.xcconfig */,
+				B44EF670D629D1B22C899953 /* Pods-GalileoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB4B193225F9441200EDB225 = {
+			isa = PBXGroup;
+			children = (
+				BB4B193D25F9441200EDB225 /* Galileo */,
+				BB4B195725F9444E00EDB225 /* GalileoTests */,
+				BB4B196225F9444E00EDB225 /* GalileoUITests */,
+				BB4B193C25F9441200EDB225 /* Products */,
+				A55064A4087D3737F93C067F /* Pods */,
+				75DEE00F7540307ADEEF1AF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB4B193C25F9441200EDB225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B193B25F9441200EDB225 /* Galileo.app */,
+				BB4B195425F9444E00EDB225 /* GalileoTests.xctest */,
+				BB4B195F25F9444E00EDB225 /* GalileoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB4B193D25F9441200EDB225 /* Galileo */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B193E25F9441200EDB225 /* AppDelegate.swift */,
+				BB4B194225F9441200EDB225 /* ViewController.swift */,
+				BB4B194425F9441200EDB225 /* Main.storyboard */,
+				BB4B194A25F9444A00EDB225 /* Assets.xcassets */,
+				BB4B194C25F9444A00EDB225 /* LaunchScreen.storyboard */,
+				BB4B194F25F9444A00EDB225 /* Info.plist */,
+				BB4B194725F9441200EDB225 /* Galileo.xcdatamodeld */,
+				BB13F80C25FE7D100070BDBE /* CountryDetailsViewController.swift */,
+			);
+			path = Galileo;
+			sourceTree = "<group>";
+		};
+		BB4B195725F9444E00EDB225 /* GalileoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B195825F9444E00EDB225 /* GalileoTests.swift */,
+				BB4B195A25F9444E00EDB225 /* Info.plist */,
+			);
+			path = GalileoTests;
+			sourceTree = "<group>";
+		};
+		BB4B196225F9444E00EDB225 /* GalileoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB4B196325F9444E00EDB225 /* GalileoUITests.swift */,
+				BB4B196525F9444E00EDB225 /* Info.plist */,
+			);
+			path = GalileoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB4B193A25F9441200EDB225 /* Galileo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4B196825F9444E00EDB225 /* Build configuration list for PBXNativeTarget "Galileo" */;
+			buildPhases = (
+				F82EA63789B0749CACEDB38C /* [CP] Check Pods Manifest.lock */,
+				BB4B193725F9441200EDB225 /* Sources */,
+				BB4B193825F9441200EDB225 /* Frameworks */,
+				BB4B193925F9441200EDB225 /* Resources */,
+				5E5576160311EDF40AD22862 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Galileo;
+			productName = Galileo;
+			productReference = BB4B193B25F9441200EDB225 /* Galileo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB4B195325F9444E00EDB225 /* GalileoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4B196B25F9444E00EDB225 /* Build configuration list for PBXNativeTarget "GalileoTests" */;
+			buildPhases = (
+				F4C2F220C0D9F6B49868DF49 /* [CP] Check Pods Manifest.lock */,
+				BB4B195025F9444E00EDB225 /* Sources */,
+				BB4B195125F9444E00EDB225 /* Frameworks */,
+				BB4B195225F9444E00EDB225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB4B195625F9444E00EDB225 /* PBXTargetDependency */,
+			);
+			name = GalileoTests;
+			productName = GalileoTests;
+			productReference = BB4B195425F9444E00EDB225 /* GalileoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB4B195E25F9444E00EDB225 /* GalileoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4B196E25F9444E00EDB225 /* Build configuration list for PBXNativeTarget "GalileoUITests" */;
+			buildPhases = (
+				E3C75C65E0791D0E7B0F0DD8 /* [CP] Check Pods Manifest.lock */,
+				BB4B195B25F9444E00EDB225 /* Sources */,
+				BB4B195C25F9444E00EDB225 /* Frameworks */,
+				BB4B195D25F9444E00EDB225 /* Resources */,
+				9F28220B352F1411DD4256B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB4B196125F9444E00EDB225 /* PBXTargetDependency */,
+			);
+			name = GalileoUITests;
+			productName = GalileoUITests;
+			productReference = BB4B195F25F9444E00EDB225 /* GalileoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB4B193325F9441200EDB225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BB4B193A25F9441200EDB225 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					BB4B195325F9444E00EDB225 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BB4B193A25F9441200EDB225;
+					};
+					BB4B195E25F9444E00EDB225 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = BB4B193A25F9441200EDB225;
+					};
+				};
+			};
+			buildConfigurationList = BB4B193625F9441200EDB225 /* Build configuration list for PBXProject "Galileo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB4B193225F9441200EDB225;
+			productRefGroup = BB4B193C25F9441200EDB225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB4B193A25F9441200EDB225 /* Galileo */,
+				BB4B195325F9444E00EDB225 /* GalileoTests */,
+				BB4B195E25F9444E00EDB225 /* GalileoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB4B193925F9441200EDB225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4B194E25F9444A00EDB225 /* LaunchScreen.storyboard in Resources */,
+				BB4B194B25F9444A00EDB225 /* Assets.xcassets in Resources */,
+				BB4B194625F9441200EDB225 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B195225F9444E00EDB225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B195D25F9444E00EDB225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E5576160311EDF40AD22862 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galileo/Pods-Galileo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galileo/Pods-Galileo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Galileo/Pods-Galileo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F28220B352F1411DD4256B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galileo-GalileoUITests/Pods-Galileo-GalileoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Galileo-GalileoUITests/Pods-Galileo-GalileoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Galileo-GalileoUITests/Pods-Galileo-GalileoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C75C65E0791D0E7B0F0DD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Galileo-GalileoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C2F220C0D9F6B49868DF49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GalileoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82EA63789B0749CACEDB38C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Galileo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB4B193725F9441200EDB225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4B194325F9441200EDB225 /* ViewController.swift in Sources */,
+				BB4B194925F9441200EDB225 /* Galileo.xcdatamodeld in Sources */,
+				BB13F80D25FE7D100070BDBE /* CountryDetailsViewController.swift in Sources */,
+				BB4B193F25F9441200EDB225 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B195025F9444E00EDB225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4B195925F9444E00EDB225 /* GalileoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4B195B25F9444E00EDB225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4B196425F9444E00EDB225 /* GalileoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB4B195625F9444E00EDB225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB4B193A25F9441200EDB225 /* Galileo */;
+			targetProxy = BB4B195525F9444E00EDB225 /* PBXContainerItemProxy */;
+		};
+		BB4B196125F9444E00EDB225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB4B193A25F9441200EDB225 /* Galileo */;
+			targetProxy = BB4B196025F9444E00EDB225 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB4B194425F9441200EDB225 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB4B194525F9441200EDB225 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB4B194C25F9444A00EDB225 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB4B194D25F9444A00EDB225 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB4B196625F9444E00EDB225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB4B196725F9444E00EDB225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB4B196925F9444E00EDB225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79430B11DFE3DFF1CBB78BB2 /* Pods-Galileo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H223C7BV4;
+				INFOPLIST_FILE = Galileo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Galileo.a;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB4B196A25F9444E00EDB225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283A631179A8B555AB835F9D /* Pods-Galileo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H223C7BV4;
+				INFOPLIST_FILE = Galileo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Galileo.a;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB4B196C25F9444E00EDB225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9638201FB3DA163E101BFE60 /* Pods-GalileoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H223C7BV4;
+				INFOPLIST_FILE = GalileoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GalileoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galileo.app/Galileo";
+			};
+			name = Debug;
+		};
+		BB4B196D25F9444E00EDB225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44EF670D629D1B22C899953 /* Pods-GalileoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H223C7BV4;
+				INFOPLIST_FILE = GalileoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GalileoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Galileo.app/Galileo";
+			};
+			name = Release;
+		};
+		BB4B196F25F9444E00EDB225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFDE152F523D588D49978E2 /* Pods-Galileo-GalileoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H223C7BV4;
+				INFOPLIST_FILE = GalileoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GalileoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Galileo;
+			};
+			name = Debug;
+		};
+		BB4B197025F9444E00EDB225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B204CC22F0CBEBC03B3557 /* Pods-Galileo-GalileoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H223C7BV4;
+				INFOPLIST_FILE = GalileoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.GalileoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Galileo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB4B193625F9441200EDB225 /* Build configuration list for PBXProject "Galileo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B196625F9444E00EDB225 /* Debug */,
+				BB4B196725F9444E00EDB225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4B196825F9444E00EDB225 /* Build configuration list for PBXNativeTarget "Galileo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B196925F9444E00EDB225 /* Debug */,
+				BB4B196A25F9444E00EDB225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4B196B25F9444E00EDB225 /* Build configuration list for PBXNativeTarget "GalileoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B196C25F9444E00EDB225 /* Debug */,
+				BB4B196D25F9444E00EDB225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4B196E25F9444E00EDB225 /* Build configuration list for PBXNativeTarget "GalileoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4B196F25F9444E00EDB225 /* Debug */,
+				BB4B197025F9444E00EDB225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB4B194725F9441200EDB225 /* Galileo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB4B194825F9441200EDB225 /* Galileo.xcdatamodel */,
+			);
+			currentVersion = BB4B194825F9441200EDB225 /* Galileo.xcdatamodel */;
+			path = Galileo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BB4B193325F9441200EDB225 /* Project object */;
+}

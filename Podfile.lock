@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (5.4.1)
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - SDWebImage
+  - SVGKit
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - IQKeyboardManagerSwift
+    - SDWebImage
+    - SVGKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 44eaaa064f84d3037ca2e1f654c2561870496b99
+
+COCOAPODS: 1.10.0
